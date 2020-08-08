@@ -1,7 +1,7 @@
-ARG GCLOUD_SDK_VERSION=271.0.0-alpine
+ARG GCLOUD_SDK_VERSION=303.0.0-alpine
 
 FROM google/cloud-sdk:$GCLOUD_SDK_VERSION
-LABEL maintainer="Michael Lynch <michael@mtlynch.io>"
+LABEL maintainer="Jack Cuthbert <jckcthbrt@gmail.com>"
 
 # Install Java 8 JRE (required for  Firestore emulator).
 RUN apk add --update --no-cache openjdk8-jre
