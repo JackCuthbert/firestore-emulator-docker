@@ -1,4 +1,4 @@
-ARG GCLOUD_SDK_VERSION=303.0.0-alpine
+ARG GCLOUD_SDK_VERSION=327.0.0-alpine
 
 FROM google/cloud-sdk:$GCLOUD_SDK_VERSION
 LABEL maintainer="Jack Cuthbert <jckcthbrt@gmail.com>"
